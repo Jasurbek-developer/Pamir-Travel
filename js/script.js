@@ -101,8 +101,6 @@ const changeLanguage=()=>{
     document.querySelector("footer .navigation .item-5").innerHTML=langsArr["item-5"][hash]
 
     // Basket 
-
-    document.querySelector(".basket-item-1").innerHTML=langsArr["basket-item-1"][hash]
 }
 changeLanguage()
 select.addEventListener("change",changeUrlLanguages)

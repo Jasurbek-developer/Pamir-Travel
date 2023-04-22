@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <title>Pamir Travel - Travel Group</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="brand"><img src="./img/logo.jpg" alt="logo"></a>
+            <div class="menu-btn"></div>
+            <ul class="navigation">
+                <li><a href="#home" class="active item-1">Bosh sahifa</a></li>
+                <li><a href="#about" class="item-2">Biz haqimizda</a></li>
+                <li><a href="#travel" class="item-3">Sayohatlar</a></li>
+                <li><a href="#services" class="item-4">Xizmatlar</a></li>
+                <li><a href="#contact" class="item-5">Bog'lanish</a></li>
+                <li><select class="form-select" aria-label="Default select example">
+                    <option value="uz">Uz</option>
+                    <option value="en">Eng</option>
+                  </select></li>
+                <li><a href="#" class="moon-theme"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="./basket.html" class="shopping"><i class="fa-sharp fa-solid fa-cart-plus"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main" id="home">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/slide-1.jpg" class="d-block w-100 carousel-img" alt="slide-1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="main-text-1">Sayohat biz bilan maroqli.</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/slide-2.jpg" class="d-block w-100 carousel-img" alt="slide-2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="main-text-2">Sayohat biz bilan ishonchli.</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/slide-3.jpg" class="d-block w-100 carousel-img" alt="slide-3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="main-text-3">Sayohat biz bilan foydali.</h2>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <section>
+        <div class="about" id="about">
+            <div class="col-left">
+                <h2 class="title">Biz haqimizda</h2>
+                <p class="text"> <strong>“Pamir Travel”</strong> sayyohlik agentligi chiqish, kirish va ichki turizm yo‘nalishlarida faoliyat yuritadi, agentlik o‘zining salohiyatli turoperatorlariga ega, agentlik tomonidan mamlakat bo’ylab sayohat qilib bo’yicha 10 dan ziyod turistik marshrutlar ishlab chiqilgan va shu asosida bugungi kungacha mahalliy va xorijiy turistlarning dam olish vaqtlari va sayohati mazmunli hamda maroqli tashkil etilib kelinmoqda.</p>
+            </div>
+            <div class="col-right">
+                <img src="./img/logo.jpg" alt="logo">
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="travel-title">Sayohatlar</h2>
+        <div class="travel" id="travel">
+            <div class="travel-cards">
+                <div class="travel-card">
+                    <div class="card-img">
+                        <img class="travel-card-img" src="./img/dubai.jpg" alt="dubai">
+                    </div>
+                    <div class="travel-card-footer">
+                        <h4 class="text travel-dubai">Dubayga Sayohat</h4>
+                        <span class="price">18.000.000 UZS</span>
+                        <div class="basket">
+                            <a href="#">
+                                <h6 class="basket-text">Savatchaga qo'shish</h6>
+                                <span class="basket-img"><img src="./img/right-arrow.png" alt="right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-cards">
+                <div class="travel-card">
+                    <div class="card-img">
+                        <img class="travel-card-img" src="./img/antaliya.jpeg" alt="antaliya">
+                    </div>
+                    <div class="travel-card-footer">
+                        <h4 class="text travel-antalya">Antaliyaga Sayohat</h4>
+                        <span class="price">16.800.000 UZS</span>
+                        <div class="basket">
+                            <a href="#">
+                                <h6 class="basket-text">Savatchaga qo'shish</h6>
+                                <span class="basket-img"><img src="./img/right-arrow.png" alt="right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-cards">
+                <div class="travel-card">
+                    <div class="card-img">
+                        <img class="travel-card-img" src="./img/misr.jpeg" alt="misr">
+                    </div>
+                    <div class="travel-card-footer">
+                        <h4 class="text travel-egypt">Misr Sayohat</h4>
+                        <span class="price">5.580.000 UZS</span>
+                        <div class="basket">
+                            <a href="#">
+                                <h6 class="basket-text">Savatchaga qo'shish</h6>
+                                <span class="basket-img"><img src="./img/right-arrow.png" alt="right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-cards">
+                <div class="travel-card">
+                    <div class="card-img">
+                        <img class="travel-card-img" src="./img/umra-ziyorati.png" alt="umra-ziyorati">
+                    </div>
+                    <div class="travel-card-footer">
+                        <h4 class="text travel-umrah">Umra Ziyorati</h4>
+                        <span class="price">19.340.000 UZS</span>
+                        <div class="basket">
+                            <a href="#">
+                                <h6 class="basket-text">Savatchaga qo'shish</h6>
+                                <span class="basket-img"><img src="./img/right-arrow.png" alt="right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-cards">
+                <div class="travel-card">
+                    <div class="card-img">
+                        <img class="travel-card-img" src="./img/xiva.jpg" alt="xiva">
+                    </div>
+                    <div class="travel-card-footer">
+                        <h4 class="text travel-uzb">O'zbekiston bo'ylab sayohat</h4>
+                        <span class="price">4.300.000 UZS</span>
+                        <div class="basket">
+                            <a href="#">
+                                <h6 class="basket-text">Savatchaga qo'shish</h6>
+                                <span class="basket-img"><img src="./img/right-arrow.png" alt="right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="across" id="travel">
+            <div class="col-left">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/across-1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/across-2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/across-3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/across-4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/across-5.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/across-6.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-right">
+                <h2 class="title">O'zbekiston bo'ylab sayohat</h2>
+                <p class="text">O’zbekiston o’zining ko’plab tarixiy-me’moriy yodgorliklari, turfa xil iqlimi va tez sur’atlarda rivojlanishi bilan butun dunyo diqqatini o’ziga tortmoqda. Asrlar mobaynida O’zbekiston Buyuk ipak yo’lining savdo, savdogarlar va sayohatchilar, jo’g’rofiyashunoslar va missionerlar, isti’lochilar va zabt etuvchilarning yo’lida joylashgan edi.</p>
+                <div class="link"><a href="#" class="across-link">Batafsil</a></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="services" id="services">
+            <h2 class="services-title">Xizmatlarimiz</h2>
+            <div class="col">
+                <div class="row">
+                    <div class="servic-item" id="item-1">
+                        <h3 class="item-text" id="text-item-1">Sahoyatni tashkil qilish</h3>
+                        <div class="item-icon"><i class="fa-solid fa-map"></i></div>
+                    </div>
+                    <div class="servic-item" id="item-2">
+                        <h3 class="item-text" id="text-item-2">Mehmonni kutib olish va kuztish</h3>
+                        <div class="item-icon"><i class="fa-solid fa-people-roof"></i></div>
+                    </div>
+                    <div class="servic-item" id="item-3">
+                        <h3 class="item-text" id="text-item-3">Gid va qo'riqchi bilan ta'minlash</h3>
+                        <div class="item-icon"><i class="fa-solid fa-user-shield"></i></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="servic-item" id="item-4">
+                        <h3 class="item-text" id="text-item-4">Ovqatlanishni tashkil qilish</h3>
+                        <div class="item-icon"><i class="fa-solid fa-burger"></i></div>
+                    </div>
+                    <div class="servic-item" id="item-5">
+                        <h3 class="item-text" id="text-item-5">Visa olishda ko'mak</h3>
+                        <div class="item-icon"><i class="fa-brands fa-cc-visa"></i></div>
+                    </div>
+                    <div class="servic-item" id="item-6">
+                        <h3 class="item-text" id="text-item-6">Mehmonhonaga joylashtirish</h3>
+                        <div class="item-icon"><i class="fa-solid fa-hotel"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="row">
+                <div class="col">
+                    <img src="./img/category-1.png" alt="category-1" class="col-img" style="margin-top: 30px;">
+                    <h2 class="col-title" id="col-title-1">Ishonchlilik</h2>
+                    <p class="col-text" id="col-text-1">Biz faqat ishonchli turoperatorlar va kompaniyalar bilan ishlaymiz!</p>
+                </div>
+                <div class="col">
+                    <img src="./img/category-2.png" alt="category-2" class="col-img">
+                    <h2 class="col-title" id="col-title-2">Professionalizm</h2>
+                    <p class="col-text" id="col-text-2">Bizda yuqori malakali mutaxassislar ishlaydi!</p>
+                </div>
+                <div class="col">
+                    <img src="./img/category-3.png" alt="category-2" class="col-img">
+                    <h2 class="col-title" id="col-title-3">Assortiment</h2>
+                    <p class="col-text" id="col-text-3">Mijozlarimiz uchun turpaketlarning katta tanlovi!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact" id="contact">
+            <div class="col-left">
+                <h2 class="contact-title">Bog'lanish</h2>
+                <div class="rows">
+                    <div class="ingut-group">
+                        <label for="Ismingiz" id="name">Ismingiz</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="ingut-group m">
+                        <label for="Familiyangiz" id="surname">Familiyangiz</label><br>
+                        <input type="text">
+                    </div>
+                </div>
+                <label for="tel" id="phone-number">Telefon raqamingiz</label>
+                <input type="number" >
+                <label for="message" id="message">Habaringizni qoldiring</label>
+                <textarea cols="60" rows="10"></textarea>
+                <a href="#" class="contact-link">Yuborish</a>
+                <div class="rows">
+                    <a href="#"><div class="contact-icon"><i class="fa-solid fa-phone"></i></div></a>
+                   <a href="#"> <span>+998 91 344 13 12</span></a>
+                </div>
+                <div class="rows" style="flex-wrap: nowrap;">
+                    <a href="#"><div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div></a>
+                   <a href="#"> <span id="location"> Namangan v, Chust shahri, Dehqonobod MFY, 140 - uy</span></a>
+                </div>
+            </div>
+            <div class="col-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191885.59854002664!2d69.11455809849566!3d41.28247993022645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2z0KLQsNGI0LrQtdC90YIsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1682082490243!5m2!1sru!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer>
+       <div class="footer-container">
+        <div class="footer-nav">
+            <a href="#" class="brand"><img src="./img/logo.jpg" alt="logo"></a>
+                <ul class="navigation">
+                    <div class="row"><li><a href="#home" class="active item-1">Bosh sahifa</a></li></div>
+                    <div class="row">
+                        <li><a href="#about" class="item-2">Biz haqimizda</a></li>
+                        <li><a href="#travel" class="item-3">Sayohatlar</a></li>
+                        <li><a href="#services" class="item-4">Xizmatlar</a></li>
+                        <li><a href="#contact" class="item-5">Bog'lanish</a></li>
+                    </div>
+                </ul>   
+            </div>
+            <div class="payme">
+                <img src="./img/payme.png" alt="payme" class="payme">
+            </div>
+       </div>
+        <hr style="width: 100%;">
+        <div class="footer-links">
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" style="margin-right: 0;"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            <div class="copy">
+                <p>&copy; Pamir Travel | Powered by <a href="#">Taskin Agency</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/langs.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

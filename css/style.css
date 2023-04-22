@@ -664,6 +664,9 @@ footer .copy a{
         width: 100%;
         margin-top: 20px;
     }
+    .category .row{
+        flex-direction: column;
+    }
     .category .row .col{
         margin-top: 70px;
     }
